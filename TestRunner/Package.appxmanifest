@@ -5,14 +5,14 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
 
-  <Identity Name="a0f150a1-01c7-4f92-889c-6dfe95aef29d"
+  <Identity Name="ed38fca9-4e5a-4df0-9ef2-45b28d2e7900"
             Publisher="CN=daren"
             Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="a0f150a1-01c7-4f92-889c-6dfe95aef29d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ed38fca9-4e5a-4df0-9ef2-45b28d2e7900" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>UwpActionTest.Lib.Tests</DisplayName>
+    <DisplayName>TestRunner</DisplayName>
     <PublisherDisplayName>daren</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -27,12 +27,12 @@
   <Applications>
     <Application Id="vstest.executionengine.universal.App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="UwpActionTest.Lib.Tests.App">
+        EntryPoint="TestRunner.App">
       <uap:VisualElements
-        DisplayName="UwpActionTest.Lib.Tests"
+        DisplayName="TestRunner"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="UwpActionTest.Lib.Tests"
+        Description="TestRunner"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

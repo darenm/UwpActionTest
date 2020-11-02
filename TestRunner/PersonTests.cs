@@ -3,7 +3,7 @@ using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UwpActionTest.Lib.Models;
 
-namespace UwpActionTest.Lib.Tests
+namespace TestRunner
 {
     [TestClass]
     public class PersonTests
@@ -16,6 +16,7 @@ namespace UwpActionTest.Lib.Tests
             Assert.IsNotNull(p);
         }
 
+        [TestMethod]
         public void Person_Firstname()
         {
             var p = new Person();
